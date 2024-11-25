@@ -42,6 +42,17 @@ h1,h2,h3,p{text-wrap:pretty;}
 .elementor-169 .elementor-element.elementor-element-1532816f{
     margin-top: 100px;
 }
+.elementor-169 .elementor-element.elementor-element-58c6a342 .elementor-image-box-wrapper{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.elementor-169 .elementor-element.elementor-element-58c6a342 > .elementor-widget-container{
+    margin-top: 30px !important;
+    margin-bottom: 0 !important;
+}
+.elementor-169 .elementor-element.elementor-element-58c6a342 .elementor-image-box-description{
+    margin-bottom: 30px;
+}
 }
 @media (min-width:1025px){
 #elementor-device-mode:after{content:"desktop";}
