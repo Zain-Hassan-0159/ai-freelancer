@@ -43,6 +43,113 @@
                     data-id="709c1f8a" data-element_type="widget" data-widget_type="button.default">
                     <div class="elementor-widget-container">
                         <div class="elementor-button-wrapper">
+                           <!-- put menu -->
+                            <style>
+                                .topnav {
+                                overflow: hidden;
+                                position: relative;
+                                }
+
+                                .topnav #myLinks {
+                                display: none;
+                                position: fixed;
+                                background: #000000f2;
+                                left: 0;
+                                right: 0;
+                                top: 0;
+                                bottom: 0;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 20px;
+                                z-index: 99999;
+                                }
+
+                                .topnav a {
+                                color: white;
+                                text-decoration: none;
+                                font-size: 17px;
+                                display: block;
+                                }
+
+                                .topnav a.icon {
+                                display: block;
+         
+                                }
+
+                                .topnav a:hover {
+                                    color: white;
+                                }
+
+                                .active {
+                                background-color: #04AA6D;
+                                color: white;
+                                }
+
+                                #myLinks li{
+                                    margin-bottom: 20px;
+                                    font-size: 22px;
+                                    justify-content: center;
+                                }
+                                
+                            </style>
+                           <div class="topnav">
+                            <div id="myLinks">
+                                <div onclick="myFunction()" class="close" style="cursor: pointer;position: absolute;
+                                top: 60px;
+                                right: 100px;">
+                                    <svg style="width: 30px; height: 30px; fill: white;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
+                                </div>
+                                <ul class="elementor-icon-list-items">
+                                    <li class="elementor-icon-list-item">
+                                        <a href="/" >
+                                            <span class="elementor-icon-list-text">Startseite</span>
+                                        </a>
+                                    </li>
+                                    <li class="elementor-icon-list-item">
+                                        <a href="uber-uns.html" >
+                                            <span class="elementor-icon-list-text">Uber uns</span>
+                                        </a>
+                                    </li>
+                                    <li class="elementor-icon-list-item">
+                                        <a href="unsere-mission.html" >
+                                            <span class="elementor-icon-list-text">Unsere-mission</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="elementor-icon-list-item">
+                                        <a href="unsere-kurse.html" >
+                                            <span class="elementor-icon-list-text">Unsere Kurse</span>
+                                        </a>
+                                    </li>
+                                    <li class="elementor-icon-list-item">
+                                        <a href="kontakt.html" >
+                                            <span class="elementor-icon-list-text">kontakt</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <svg style="width: 30px; height: 30px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
+                            </a>
+                          </div>
+                          <script>
+                            function myFunction() {
+                              var x = document.getElementById("myLinks");
+                              if (x.style.display === "flex") {
+                                x.style.display = "none";
+                              } else {
+                                x.style.display = "flex";
+                              }
+                            }
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-709c1f8a elementor-widget__width-auto elementor-widget elementor-widget-button"
+                    data-id="709c1f8a" data-element_type="widget" data-widget_type="button.default">
+                    <div class="elementor-widget-container">
+                        <div class="elementor-button-wrapper">
                             <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
                                 <span class="elementor-button-content-wrapper">
                                     <span class="elementor-button-text">Kurse entdecken</span>
