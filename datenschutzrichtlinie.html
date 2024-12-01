@@ -13,37 +13,145 @@
     <meta name="generator"
         content="Elementor 3.25.10; features: e_font_icon_svg, additional_custom_breakpoints, e_optimized_control_loading, e_element_cache; settings: css_print_method-external, google_font-enabled, font_display-swap">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="stylesheet" href="assets/css/general.css">
     <link rel="stylesheet" href="assets/css/datenschutzrichtlinie.css">
 </head>
 
 <body
     class="page-template page-template-elementor_canvas page page-id-573 wp-embed-responsive elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-573 e--ua-isTouchDevice e--ua-blink e--ua-chrome e--ua-webkit"
     data-elementor-device-mode="desktop">
-    <div data-elementor-type="wp-page" data-elementor-id="573" class="elementor elementor-573"
+    <div data-elementor-type="wp-page" data-elementor-id="573" class="elementor elementor-573 elementor-8"
         data-elementor-post-type="page">
-        <header class="elementor-element elementor-element-4977caba e-con-full e-flex e-con e-parent e-lazyloaded"
-            data-id="4977caba" data-element_type="container"
+        <header class="elementor-element elementor-element-79271263 e-con-full e-flex e-con e-parent e-lazyloaded"
+            data-id="79271263" data-element_type="container"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-            <div class="elementor-element elementor-element-243c2c0a e-con-full e-flex e-con e-child" data-id="243c2c0a"
+            <div class="elementor-element elementor-element-39716229 e-con-full e-flex e-con e-child" data-id="39716229"
                 data-element_type="container">
-                <div class="elementor-element elementor-element-2a42f56 elementor-widget elementor-widget-image"
-                    data-id="2a42f56" data-element_type="widget" data-widget_type="image.default">
+                <div class="elementor-element elementor-element-29aa9c8f elementor-widget elementor-widget-image"
+                    data-id="29aa9c8f" data-element_type="widget" data-widget_type="image.default">
                     <div class="elementor-widget-container">
-                        <a href="/">
+                        <a href="">
                             <img fetchpriority="high" decoding="async" width="531" height="420"
                                 src="assets/images/logo.png"
                                 class="attachment-full size-full wp-image-22" alt=""
-                               > </a>
+                                > </a>
                     </div>
                 </div>
             </div>
-            <div class="elementor-element elementor-element-7793e22b e-con-full e-flex e-con e-child" data-id="7793e22b"
+            <div class="elementor-element elementor-element-1fa9f8e5 e-con-full e-flex e-con e-child" data-id="1fa9f8e5"
                 data-element_type="container">
-                <div class="elementor-element elementor-element-11f8baa9 elementor-widget__width-auto elementor-widget elementor-widget-button"
-                    data-id="11f8baa9" data-element_type="widget" data-widget_type="button.default">
+                <div class="elementor-element elementor-element-709c1f8a elementor-widget__width-auto elementor-widget elementor-widget-button"
+                    data-id="709c1f8a" data-element_type="widget" data-widget_type="button.default">
                     <div class="elementor-widget-container">
                         <div class="elementor-button-wrapper">
-                            <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
+                           <!-- put menu -->
+                            <style>
+                                .topnav {
+                                overflow: hidden;
+                                position: relative;
+                                }
+
+                                .topnav #myLinks {
+                                display: none;
+                                position: fixed;
+                                background: #000000f2;
+                                left: 0;
+                                right: 0;
+                                top: 0;
+                                bottom: 0;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 20px;
+                                z-index: 99999;
+                                }
+
+                                .topnav a {
+                                color: white;
+                                text-decoration: none;
+                                font-size: 17px;
+                                display: block;
+                                }
+
+                                .topnav a.icon {
+                                display: block;
+         
+                                }
+
+                                .topnav a:hover {
+                                    color: white;
+                                }
+
+                                .active {
+                                background-color: #04AA6D;
+                                color: white;
+                                }
+
+                                #myLinks li{
+                                    margin-bottom: 20px;
+                                    font-size: 22px;
+                                    justify-content: center;
+                                }
+                                
+                            </style>
+                           <div class="topnav">
+                            <div id="myLinks">
+                                <div onclick="myFunction()" class="close" style="cursor: pointer;position: absolute;
+                                top: 60px;
+                                right: 100px;">
+                                    <svg style="width: 30px; height: 30px; fill: white;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
+                                </div>
+                                <ul class="elementor-icon-list-items">
+                                    <li class="elementor-icon-list-item">
+                                        <a href="/" >
+                                            <span class="elementor-icon-list-text">Startseite</span>
+                                        </a>
+                                    </li>
+                                    <li class="elementor-icon-list-item">
+                                        <a href="uber-uns.html" >
+                                            <span class="elementor-icon-list-text">Uber uns</span>
+                                        </a>
+                                    </li>
+                                    <li class="elementor-icon-list-item">
+                                        <a href="unsere-mission.html" >
+                                            <span class="elementor-icon-list-text">Unsere-mission</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="elementor-icon-list-item">
+                                        <a href="unsere-kurse.html" >
+                                            <span class="elementor-icon-list-text">Unsere Kurse</span>
+                                        </a>
+                                    </li>
+                                    <li class="elementor-icon-list-item">
+                                        <a href="kontakt.html" >
+                                            <span class="elementor-icon-list-text">kontakt</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <svg style="width: 30px; height: 30px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
+                            </a>
+                          </div>
+                          <script>
+                            function myFunction() {
+                              var x = document.getElementById("myLinks");
+                              if (x.style.display === "flex") {
+                                x.style.display = "none";
+                              } else {
+                                x.style.display = "flex";
+                              }
+                            }
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-709c1f8a elementor-widget__width-auto elementor-widget elementor-widget-button"
+                    data-id="709c1f8a" data-element_type="widget" data-widget_type="button.default">
+                    <div class="elementor-widget-container">
+                        <div class="elementor-button-wrapper">
+                            <a class="elementor-button elementor-button-link elementor-size-sm" href="unsere-kurse.html">
                                 <span class="elementor-button-content-wrapper">
                                     <span class="elementor-button-text">Kurse entdecken</span>
                                 </span>
@@ -60,7 +168,8 @@
                 <div class="elementor-element elementor-element-3225f4a elementor-widget elementor-widget-text-editor"
                     data-id="3225f4a" data-element_type="widget" data-widget_type="text-editor.default">
                     <div class="elementor-widget-container">
-                        <h2 class="elementor-heading-title elementor-size-default elementor-inline-editing pen"
+                        <h2 style="    font-size: 28px;
+    font-weight: bold;" class="elementor-heading-title elementor-size-default elementor-inline-editing pen"
                             contenteditable="true" data-elementor-setting-key="title"
                             data-pen-placeholder="Type Here...">Datenschutzrichtlinie</h2>
                     </div>
@@ -68,7 +177,8 @@
                 <div class="elementor-element elementor-element-abbff56 elementor-widget elementor-widget-text-editor"
                     data-id="abbff56" data-element_type="widget" data-widget_type="text-editor.default">
                     <div class="elementor-widget-container">
-                        <h2 class="elementor-heading-title elementor-size-default elementor-inline-editing pen"
+                        <h2 style="    font-size: 22px;
+    font-weight: semi-bold;" class="elementor-heading-title elementor-size-default elementor-inline-editing pen"
                             contenteditable="true" data-elementor-setting-key="title"
                             data-pen-placeholder="Type Here...">Letzte Aktualisierung: 17/11/2024</h2>
                     </div>
@@ -221,17 +331,17 @@
                 </div>
             </div>
         </div>
-        <div class="elementor-element elementor-element-22cede91 e-con-full e-flex e-con e-parent e-lazyloaded"
-            data-id="22cede91" data-element_type="container"
+        <div class="elementor-element elementor-element-1d82584f e-con-full e-flex e-con e-parent e-lazyloaded"
+            data-id="1d82584f" data-element_type="container"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-            <div class="elementor-element elementor-element-4065f856 e-con-full e-flex e-con e-child" data-id="4065f856"
+            <div class="elementor-element elementor-element-753574d4 e-con-full e-flex e-con e-child" data-id="753574d4"
                 data-element_type="container">
-                <div class="elementor-element elementor-element-68d9decb elementor-position-top elementor-widget elementor-widget-image-box"
-                    data-id="68d9decb" data-element_type="widget" data-widget_type="image-box.default">
+                <div class="elementor-element elementor-element-7a5419c9 elementor-position-top elementor-widget elementor-widget-image-box"
+                    data-id="7a5419c9" data-element_type="widget" data-widget_type="image-box.default">
                     <div class="elementor-widget-container">
                         <div class="elementor-image-box-wrapper">
                             <figure class="elementor-image-box-img"><img decoding="async"
-                                src="assets/images/logo.png"
+                                    src="assets/images/logo.png"
                                     title="" alt="" loading="lazy"></figure>
                             <div class="elementor-image-box-content">
                                 <p class="elementor-image-box-description">Bereit, Ihre beruflichen Fähigkeiten auf das
@@ -241,16 +351,13 @@
                     </div>
                 </div>
             </div>
-            <div class="elementor-element elementor-element-6f197cf2 e-con-full e-flex e-con e-child" data-id="6f197cf2"
-                data-element_type="container">
-                <div class="elementor-element elementor-element-38dd2b2d elementor-widget elementor-widget-heading"
-                    data-id="38dd2b2d" data-element_type="widget" data-widget_type="heading.default">
+            <div class="elementor-element elementor-element-340d01e2 e-con-full e-flex e-con e-child" data-id="340d01e2" data-element_type="container">
+                <div class="elementor-element elementor-element-7c2cc3ef elementor-widget elementor-widget-heading" data-id="7c2cc3ef" data-element_type="widget" data-widget_type="heading.default">
                     <div class="elementor-widget-container">
                         <h6 class="elementor-heading-title elementor-size-default">Beliebteste Kurse</h6>
                     </div>
                 </div>
-                <div class="elementor-element elementor-element-73916707 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                    data-id="73916707" data-element_type="widget" data-widget_type="icon-list.default">
+                <div class="elementor-element elementor-element-36aeb5e6 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="36aeb5e6" data-element_type="widget" data-widget_type="icon-list.default">
                     <div class="elementor-widget-container">
                         <ul class="elementor-icon-list-items">
                             <li class="elementor-icon-list-item">
@@ -292,85 +399,82 @@
                     </div>
                 </div>
             </div>
-            <div class="elementor-element elementor-element-3da8c148 e-con-full e-flex e-con e-child" data-id="3da8c148"
+            <div class="elementor-element elementor-element-5cc90203 e-con-full e-flex e-con e-child" data-id="5cc90203"
                 data-element_type="container">
-                <div class="elementor-element elementor-element-262beb5c elementor-widget elementor-widget-heading"
-                    data-id="262beb5c" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-element elementor-element-2b26f52d elementor-widget elementor-widget-heading"
+                    data-id="2b26f52d" data-element_type="widget" data-widget_type="heading.default">
                     <div class="elementor-widget-container">
                         <h6 class="elementor-heading-title elementor-size-default">Schnellzugriff</h6>
                     </div>
                 </div>
-                <div class="elementor-element elementor-element-73916707 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                data-id="73916707" data-element_type="widget" data-widget_type="icon-list.default">
-                <div class="elementor-widget-container">
-                    <ul class="elementor-icon-list-items">
-                        <li class="elementor-icon-list-item">
-                            <a href="/" >
-                                <span class="elementor-icon-list-text">Startseite</span>
-                            </a>
-                        </li>
-                        <li class="elementor-icon-list-item">
-                            <a href="uber-uns.html" >
-                                <span class="elementor-icon-list-text">Uber uns</span>
-                            </a>
-                        </li>
-                        <li class="elementor-icon-list-item">
-                            <a href="unsere-mission.html" >
-                                <span class="elementor-icon-list-text">Unsere-mission</span>
-                            </a>
-                        </li>
-                        <li class="elementor-icon-list-item">
-                            <a href="kontakt.html" >
-                                <span class="elementor-icon-list-text">kontakt</span>
-                            </a>
-                        </li>
-                        <li class="elementor-icon-list-item">
-                            <a href="unsere-kurse.html" >
-                                <span class="elementor-icon-list-text">Unsere Kurse</span>
-                            </a>
-                        </li>
-                        <li class="elementor-icon-list-item">
-                            <a href="datenschutzrichtlinie.html" >
-                                <span class="elementor-icon-list-text">Datenschutzrichtlinie</span>
-                            </a>
-                        </li>
-                        <li class="elementor-icon-list-item">
-                            <a href="nutzungsbedingungen.html" >
-                                <span class="elementor-icon-list-text">Nutzungsbedingungen</span>
-                            </a>
-                        </li>
-                    </ul>
+                <div class="elementor-element elementor-element-36aeb5e6 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="36aeb5e6" data-element_type="widget" data-widget_type="icon-list.default">
+                    <div class="elementor-widget-container">
+                        <ul class="elementor-icon-list-items">
+                            <li class="elementor-icon-list-item">
+                                <a href="/" >
+                                    <span class="elementor-icon-list-text">Startseite</span>
+                                </a>
+                            </li>
+                            <li class="elementor-icon-list-item">
+                                <a href="uber-uns.html" >
+                                    <span class="elementor-icon-list-text">Uber uns</span>
+                                </a>
+                            </li>
+                            <li class="elementor-icon-list-item">
+                                <a href="unsere-mission.html" >
+                                    <span class="elementor-icon-list-text">Unsere-mission</span>
+                                </a>
+                            </li>
+                            <li class="elementor-icon-list-item">
+                                <a href="kontakt.html" >
+                                    <span class="elementor-icon-list-text">kontakt</span>
+                                </a>
+                            </li>
+                            <li class="elementor-icon-list-item">
+                                <a href="unsere-kurse.html" >
+                                    <span class="elementor-icon-list-text">Unsere Kurse</span>
+                                </a>
+                            </li>
+                            <li class="elementor-icon-list-item">
+                                <a href="datenschutzrichtlinie.html" >
+                                    <span class="elementor-icon-list-text">Datenschutzrichtlinie</span>
+                                </a>
+                            </li>
+                            <li class="elementor-icon-list-item">
+                                <a href="nutzungsbedingungen.html" >
+                                    <span class="elementor-icon-list-text">Nutzungsbedingungen</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-                
-            </div>
-            <div class="elementor-element elementor-element-35f48e20 e-con-full e-flex e-con e-child" data-id="35f48e20"
+            <div class="elementor-element elementor-element-58096857 e-con-full e-flex e-con e-child" data-id="58096857"
                 data-element_type="container">
-                <div class="elementor-element elementor-element-5edfc4e7 elementor-widget elementor-widget-heading"
-                    data-id="5edfc4e7" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-element elementor-element-2fc0589 elementor-widget elementor-widget-heading"
+                    data-id="2fc0589" data-element_type="widget" data-widget_type="heading.default">
                     <div class="elementor-widget-container">
                         <h6 class="elementor-heading-title elementor-size-default">Melden Sie sich bei uns</h6>
                     </div>
                 </div>
-                <div class="elementor-element elementor-element-4f854b57 elementor-widget elementor-widget-text-editor"
-                    data-id="4f854b57" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-element elementor-element-67dbfcd5 elementor-widget elementor-widget-text-editor"
+                    data-id="67dbfcd5" data-element_type="widget" data-widget_type="text-editor.default">
                     <div class="elementor-widget-container">
                         <p>Kemperplatz 1, <br>10785 Berlin
                             Deutschland</p>
                     </div>
                 </div>
-                <div class="elementor-element elementor-element-352b230f elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                    data-id="352b230f" data-element_type="widget" data-widget_type="icon-list.default">
+                <div class="elementor-element elementor-element-66bae71c elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+                    data-id="66bae71c" data-element_type="widget" data-widget_type="icon-list.default">
                     <div class="elementor-widget-container">
                         <ul class="elementor-icon-list-items">
                             <li class="elementor-icon-list-item">
-                                <a href="mailto:contact@mysite.com">
+                                <a href="mailto:hello@aifreelancerschool.com">
                                     <span class="elementor-icon-list-text">Schreiben Sie uns eine E-Mail: hello@aifreelancerschool.com</span>
                                 </a>
                             </li>
                             <li class="elementor-icon-list-item">
                                 <a href="tel:123-456-7890">
-
                                     <span class="elementor-icon-list-text">Phone: 123-456-7890</span>
                                 </a>
                             </li>
