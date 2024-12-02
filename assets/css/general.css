@@ -298,9 +298,10 @@ h6,p{text-wrap:pretty;}
 @media (max-width:767px){
     .elementor-widget-container{
         padding-right: 10px !important;
+        margin-top: 10px !important;
     }
     .elementor-widget-container .elementor-heading-title{
-        font-size: 20px !important;
+        /* font-size: 20px !important; */
     }
     .elementor-element.e-con-full.e-flex.e-con.e-child{
         margin-top: 0 !important;
@@ -314,10 +315,15 @@ h6,p{text-wrap:pretty;}
     .elementor-field-textual.elementor-size-lg{
         min-height: 101px !important;
     }
-    .elementor-widget-text-editor p{
+
+    .mb-20{
+        margin-bottom: 20px !important;
+        margin-top: 0 !important;
+    }
+    /* .elementor-widget-text-editor p{
         line-height: 60px;
         margin-bottom: 0;
-    }
+    } */
 .elementor-8 .elementor-element.elementor-element-1d82584f{--padding-top:20%;--padding-bottom:20%;--padding-left:5%;--padding-right:5%;}
 .elementor-8 .elementor-element.elementor-element-753574d4{--margin-top:25%;--margin-bottom:0%;--margin-left:0%;--margin-right:0%;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;}
 .elementor-8 .elementor-element.elementor-element-7a5419c9 .elementor-image-box-img{margin-bottom:0px;}
